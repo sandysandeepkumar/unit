@@ -1,0 +1,16 @@
+{
+  "name": "unit",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.3.1"
+  },
+  "description": ""
+
+
+}
