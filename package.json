@@ -3,12 +3,27 @@
   "version": "1.0.0",
   "main": "sum.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.3.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageThreshold": {
+      "global": {
+        "functions": 100
+      }
+    },
+    "coverageReporters": [
+      "text",
+      "html"
+    ],
+    "coveragePathIgnorePatterns": [
+      "node_modules"
+    ]
   },
   "description": ""
 
