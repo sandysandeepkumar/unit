@@ -1,0 +1,21 @@
+{
+  "name": "unit",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.3.1",
+
+    "jest-cli": "git://github.com/hankhsiao/jest.git"
+  },
+  "description": "",
+
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html"]
+  }
+}
