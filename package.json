@@ -1,4 +1,6 @@
-"name": "unit",
+{
+  
+  "name": "unit",
   "version": "1.0.0",
   "main": "sum.js",
   "scripts": {
