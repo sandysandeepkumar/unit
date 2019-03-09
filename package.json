@@ -31,7 +31,7 @@
     "output": "output/coverage/junit/junit.xml",
     "usePathForSuiteName": "true"
   }
-  },
+  
     "coveragePathIgnorePatterns": [
       "node_modules"
     ]
