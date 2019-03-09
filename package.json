@@ -21,7 +21,7 @@
     "coverageReporters": [
       "text",
       "html",
-      "cobertura"
+"cobertura"
     ],
     "reporters": [
       "default",
@@ -31,12 +31,15 @@
     "output": "output/coverage/junit/junit.xml",
     "usePathForSuiteName": "true"
   }
-  
-    "coveragePathIgnorePatterns": [
-      "node_modules"
-    ]
   },
-  "description": ""
+  "main": "index.js",
+  "bin": {
+    "ccsonboardbackend": "www.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 
 
 }
