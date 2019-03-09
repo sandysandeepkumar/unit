@@ -20,8 +20,18 @@
     },
     "coverageReporters": [
       "text",
-      "html"
+      "html",
+      "cobertura"
     ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+     "jest-junit": {
+    "output": "output/coverage/junit/junit.xml",
+    "usePathForSuiteName": "true"
+  }
+  },
     "coveragePathIgnorePatterns": [
       "node_modules"
     ]
