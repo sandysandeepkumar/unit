@@ -10,13 +10,27 @@
   "devDependencies": {
     "jest": "^24.3.1"
   },
-  "jest": {
+ "jest": {
     "collectCoverage": true,
     "coverageThreshold": {
       "global": {
         "functions": 100
       }
     },
+    "coverageReporters": [
+      "text",
+      "html",
+"cobertura"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+     "jest-junit": {
+    "output": "output/coverage/junit/junit.xml",
+    "usePathForSuiteName": "true"
+  }
+  },
     "coverageReporters": [
       "text",
       "html"
