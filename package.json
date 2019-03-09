@@ -18,11 +18,7 @@
         "functions": 100
       }
     },
-    "coverageReporters": [
-      "text",
-      "html",
-"cobertura"
-    ],
+    
     "reporters": [
       "default",
       "jest-junit"
